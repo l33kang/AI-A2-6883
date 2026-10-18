@@ -212,7 +212,7 @@ Test coverage includes:
 **Human Review Required:** All predictions must be reviewed by a qualified agronomist before any operational decisions.
 
 ## Repository
-- **URL:** 
+- **URL:** https://github.com/l33kang/AI-A2-6883.git
 - **Final Commit Hash:** [Run `git rev-parse HEAD` after final commit]
 
 ## Evidence Files (for submission)
