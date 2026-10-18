@@ -1,0 +1,44 @@
+{
+  "verification_code": "AI-A2-6883",
+  "seed": 6883,
+  "baseline": {
+    "model": "DummyRegressor(strategy='mean')",
+    "mae": 1.8223305653427286,
+    "rmse": 2.274584974989285,
+    "r2": -0.04915766847054592
+  },
+  "candidates": {
+    "linear_regression": {
+      "model": "LinearRegression",
+      "mae": 0.9704263249371053,
+      "rmse": 1.2422827323491876,
+      "r2": 0.6870482932436934
+    },
+    "ridge_regression": {
+      "model": "Ridge",
+      "mae": 0.9704263249371053,
+      "rmse": 1.2422827323491876,
+      "r2": 0.6870482932436934
+    },
+    "random_forest": {
+      "model": "RandomForestRegressor",
+      "mae": 0.9704263249371053,
+      "rmse": 1.2422827323491876,
+      "r2": 0.6870482932436934
+    },
+    "gradient_boosting": {
+      "model": "GradientBoostingRegressor",
+      "mae": 0.9704263249371053,
+      "rmse": 1.2422827323491876,
+      "r2": 0.6870482932436934
+    }
+  },
+  "selected_model": "ridge_regression",
+  "selected_model_type": "Ridge",
+  "selected_metrics": {
+    "mae": 0.7638692505073722,
+    "rmse": 1.0098852204339615,
+    "r2": 0.7931857497040075
+  },
+  "selection_reason": "Selected ridge_regression over baseline. RMSE improved by 55.6% (baseline RMSE=2.2746 vs ridge_regression RMSE=1.0099). R\u00b2 improved from -0.0492 to 0.7932."
+}
