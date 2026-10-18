@@ -212,7 +212,7 @@ Test coverage includes:
 **Human Review Required:** All predictions must be reviewed by a qualified agronomist before any operational decisions.
 
 ## Repository
-- **URL:** [Your GitHub repo URL]
+- **URL:** 
 - **Final Commit Hash:** [Run `git rev-parse HEAD` after final commit]
 
 ## Evidence Files (for submission)
@@ -222,13 +222,3 @@ Test coverage includes:
 - `evidence/AI_USE.md` - AI assistance disclosure
 - `docs/AI_A2_2526883_REPORT.pdf` - 5-7 page technical report
 
-## Submission Package
-```bash
-# Create submission zip (from parent directory)
-zip -r AI_A2_2526883.zip AI_A2_2526883/
-```
-Submit `AI_A2_2526883.zip` through INES e-learning platform.
-
----
-
-**Deadline:** Monday, 19 October 2026 at 5:00 PM CAT (Africa/Kigali)
